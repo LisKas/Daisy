@@ -1,0 +1,15 @@
+
+/*.................*/
+.promo{
+	background: url('../img/promo-bg.png') no-repeat;
+	background-size: cover;
+	padding-top: 170px;
+	text-align: center;
+	.btn{
+		@extend .btn;
+		padding: 10px 60px;
+		&::after {
+			display:none;
+		}
+	}
+}

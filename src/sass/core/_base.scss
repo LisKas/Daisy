@@ -1,0 +1,100 @@
+*{
+	box-sizing: border-box;
+}
+body{
+	font-family: source-sans-pro;
+	color: $light-grey;
+	font-size: 15px;
+	font-weight: 300;
+}
+.container{
+	max-width: 940px;
+	margin: 0 auto;
+	padding: 0 10px;
+}
+span{
+	color: $red;
+}
+h2{
+	font-size: 61px;
+	font-weight: 600;
+	letter-spacing: 5px;
+	color: $white;
+}
+
+h3 { 
+	display: inline-block;
+	position: relative;
+	font-size: 28px;
+	font-weight: 400; 
+	color: $grey;
+	text-transform: uppercase;
+
+
+	&::before{
+		position:absolute;
+		content: '';
+		background-color: $grey;
+		height: 1px;
+		bottom: -10px;
+		left: 0;
+		right: 0;
+
+	}
+}
+
+h4{
+	@extend h3;
+	margin: 25px 20px;
+	margin-bottom: 15px;
+	&::before{
+		background-color: #fc635e;
+    	width: 10px;
+    	height: 40px;
+    	top: -5px;
+    	left: -20px;
+	}
+}
+.section_p{
+    font-size: 20px;
+    font-weight: 300;
+    margin-bottom: 85px;
+    padding: 0 220px;
+    line-height: 26px;
+}
+.wrap{
+	display:flex;
+	flex-direction: row;
+	
+}
+
+img{
+	max-width: 100%;
+}
+
+
+/*---help class---*/
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table; 
+}
+
+.clearfix:after {
+    clear: both;
+}
+/*----------------*/
+
+/*..import..*/
+
+@import "button";
+@import "intro" ;
+@import "service" ;
+@import "promo" ;
+@import "process" ;
+@import "service-more" ;
+@import "portfolio" ;
+@import "team" ;
+@import "feedback" ;
+@import "map" ;
+@import "site-footer" ;

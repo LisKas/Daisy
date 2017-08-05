@@ -1,0 +1,63 @@
+.feedback{
+	padding-top: 55px;
+	padding-bottom: 160px;
+	
+	&_logo{
+		margin: 0 auto;
+		width: 80px;
+		height: 90px;
+		background: url('../img/feedback_logo.png') no-repeat;
+	}
+	.slaider{
+		width: 100%;
+		margin-top: 70px;
+		padding-left: 10px;
+		padding-right: 10px;
+		.slaid{
+			display: flex;
+			justify-content: space-between;
+		
+			&_text{
+				width: 33.33%;
+				padding-top: 50px;
+
+			}
+			&_foto{
+				margin: 0 auto;
+				
+			}
+			&_foto img{
+				width: 165px;
+
+
+			}
+			
+			&_name{
+			    width: 33.33%;
+			    font-size: 25px;
+			    font-weight: 600;
+				padding-top: 50px;
+		}		
+			&_name span:nth-child(2){
+			display: block;
+			font-size: 20px;
+			font-weight: 300;
+			margin-top: 15px;
+			color: $grey;
+		}
+			
+		}
+	}
+}
+/*..........modify controls of slick...........*/
+.controls{
+	width: 30px;
+	height: 30px;
+	position: absolute;
+	left: 45%;
+	top: 100%;
+	margin-top: 50px;
+}
+.right-control{
+	margin-left: 50px;
+}
