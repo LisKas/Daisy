@@ -7,7 +7,7 @@ $( document ).ready(function() {
                     nextArrow:    '<img class="controls left-control slick-prev" src="img/slaid-left.png">',
 
                 });
-
+// ///////////////////////////////////////////////////
 	var latitude = 30.258940,
 	    longitude = -81.392700,
 	    map_zoom = 16;
@@ -48,6 +48,9 @@ $( document ).ready(function() {
 
 });
 
+// /////////////////////////////////////////////////////////////////////
 
 
 
+
+    

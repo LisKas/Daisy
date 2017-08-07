@@ -52,7 +52,7 @@ h2 {
   color: #fff;
 }
 
-h3, h4, .process .step h3, .process .step:nth-child(4) h3 {
+h3, h4, .process .step h3, .process .step:nth-child(5) h3 {
   display: inline-block;
   position: relative;
   font-size: 28px;
@@ -109,6 +109,14 @@ img {
 }
 
 /*---help class---*/
+.hidden {
+  opacity: 0;
+}
+
+.visible {
+  opacity: 1;
+}
+
 .clearfix:before,
 .clearfix:after {
   content: " ";
@@ -340,26 +348,26 @@ h1::after {
   margin-bottom: 200px;
 }
 
-.process .step h4, .process .step h3, .process .step:nth-child(4) h3 {
+.process .step h4, .process .step h3, .process .step:nth-child(5) h3 {
   font-size: 24px;
   font-weight: 600;
   margin: 45px 0 5px 0;
 }
 
-.process .step:nth-child(4) {
+.process .step:nth-child(5) {
   width: 265px;
   height: 305px;
   background: url("../img/step/step4.png") no-repeat center center;
 }
 
-.process .step:nth-child(4) h4, .process .step:nth-child(4) h3 {
+.process .step:nth-child(5) h4, .process .step:nth-child(5) h3 {
   font-size: 24px;
   font-weight: 600;
   margin: 60px 0 5px 0;
 }
 
 .s1 {
-  top: 50px;
+  top: 103px;
   left: 60px;
 }
 
@@ -384,7 +392,7 @@ h1::after {
 }
 
 .s2 {
-  top: 101px;
+  top: 154px;
   left: 149px;
 }
 
@@ -393,7 +401,7 @@ h1::after {
 }
 
 .s3 {
-  top: -49px;
+  top: 4px;
   left: 60px;
 }
 
@@ -402,7 +410,7 @@ h1::after {
 }
 
 .s4 {
-  top: 26px;
+  top: 79px;
   left: 57px;
 }
 
@@ -742,9 +750,6 @@ h1::after {
   margin-left: 50px;
 }
 
-/*.map{
-	background-color: red;
-}*/
 .site-footer {
   background: url(../img/footer-bg.jpg) no-repeat center center/cover;
   padding-top: 75px;

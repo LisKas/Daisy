@@ -82,18 +82,18 @@
 	<div class="wrap">
 	<svg id="svg1" version="1.1" xmlns="http://www.w3.org/2000/svg"
          xmlns:xlink="http://www.w3.org/1999/xlink"
-         width="960" height="300" viewBox="0 0 960 300" >
+         width="960" height="400" viewBox="0 0 960 400" >
          <style>
          #svg1{
          	position:absolute;
          }
          </style>
   
-         <path id="check" fill="none" stroke ="red" stroke-dasharray= "600"
-         stroke-dashoffset="600"     d="M 60 103 L149 52 235 103 235 202 325 253 326 152">
+         <path id="check" fill="none" stroke-width ="5" stroke ="#fc635e" stroke-dasharray= "1600"
+         stroke-dashoffset="1600"     d="M 60 153 L149 103 237 154 V253 L323 304 V205 L409 155 V55 L497 4 587 56 V153 L714 79 847 155 V308 L714 386">
 
-         <animate id="p1" begin="1s" attributeName="stroke-dashoffset"
-         values="600; 0" dur="8s" repeatCount="1"  fill="freeze"  calcMode="linear"/>
+         <animate class="animate" begin="5s" attributeName="stroke-dashoffset"
+         values="1400; 0" dur="16s" repeatCount="1"  fill="freeze"  calcMode="linear"/>
 
          </path>
         </svg>
@@ -328,7 +328,6 @@
 
 
 <script src="js/libs.js"></script>
-
 <script src="js/main.js"></script>
 
 

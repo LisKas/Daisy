@@ -74,6 +74,12 @@ img{
 
 
 /*---help class---*/
+.hidden{
+	opacity:0;
+}
+.visible{
+	opacity:1;
+}
 .clearfix:before,
 .clearfix:after {
     content: " ";

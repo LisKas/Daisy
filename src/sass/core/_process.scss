@@ -18,7 +18,7 @@
         }
 	}
 
-	.step:nth-child(4){
+	.step:nth-child(5){
 	width: 265px;
 	height: 305px;
 	background: url('../img/step/step4.png') no-repeat center center;
@@ -31,7 +31,7 @@
     }
 }
 .s1{
-	top: 50px;
+	top: 103px;
 	left: 60px;
 
 	&::before{
@@ -54,7 +54,7 @@
 	}
 }
 .s2{
-	top: 101px;
+	top: 154px;
 	left: 149px;
 	&::after{
 	@extend .s1::after;
@@ -62,7 +62,7 @@
 	}
 }
 .s3{
-	top: -49px;
+	top: 4px;
 	left: 60px;
 	&::after{
 	@extend .s1::after;
@@ -70,7 +70,7 @@
 	}
 }
 .s4{
-	top: 26px;
+	top: 79px;
 	left: 57px;
 	&::before{
 	position: absolute;
